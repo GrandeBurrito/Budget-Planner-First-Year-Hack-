@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<title>Student Budgeting</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 		<link href = "Spotify Super.css" rel = "stylesheet">
+	</head>
+
+<body>
+<h1> Budget Planner </h1>
+<div class="form">
+				<form action="">
+					<input type="text" value=""
+					placeholder="Input Your Monthly Allowance" id="in">
+				</form>
+			</div>
+
+<div class="query">
+	<h2>Where do you shop for groceries?</h2>
+	<form action="">
+  <input type="radio" name="shop" value="tesco"> Tesco<br>
+  <input type="radio" name="shop" value="M&S"> Marks and Spencer<br>
+  <input type="radio" name="shop" value="wholefoods"> WholeFoods Market
+</form>
+	<h2>Where do you go out to eat?</h2>
+	<form action="">
+  <input type="radio" name="eat" value="Packed Lunch"> Packed Lunch<br>
+  <input type="radio" name="eat" value="Fast Food"> Fast Food<br>
+  <input type="radio" name="eat" value="Cafe"> Cafe<br>
+  <input type="radio" name="eat" value="Restaurants"> Restaurants
+</form>
+	<h2>What is your primary method of travel?</h2>
+	<form action="">
+  <input type="radio" name="travel" value="walk/bike"> Walk/Bike<br>
+  <input type="radio" name="travel" value="uber"> Uber<br>
+  <input type="radio" name="travel" value="train"> Train<br>
+</form>
+	<h2>How much do you want to save this month?</h2>
+	<form action="">
+  <input type="radio" name="savings" value="little"> A little bit<br>
+  <input type="radio" name="savings" value="decent"> A decent amount<br>
+  <input type="radio" name="savings" value="lot"> A lot
+</form>
+<div class = "button container">
+<div class = "submit">Submit</div>
+</div>
+</div>
+
+<div class = "statistics">
+	<h3>Food Budget</h3>
+		<p id="fbudget"></p>
+	<h3>Dining Budget</h3>
+		<p id="eatbudget"></p>
+	<h3>Travel Budget</h3>
+		<p id="tbudget"></p>
+	<h3>Savings</h3>
+		<p id="sbudget"></p>
+	<h3>Recreation (Money Left)</h3>
+		<p id="moneyleft"></p>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src = "Budget.js"></script>
+</body>
+	</html>

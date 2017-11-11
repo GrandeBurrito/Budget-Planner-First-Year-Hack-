@@ -1,0 +1,46 @@
+body {
+    font-family: "proxima-nova", sans-serif;
+	color: black;
+	background-color: black;
+}
+
+h1{
+	font-weight: bold;
+	font-size: 50px;
+	padding-top: 50px;
+	text-align: center;
+	color: white;
+}
+
+.query{
+	color: white;
+}
+
+.statistics{
+	color: white;
+}
+input[type=text]{
+	width: 100%;
+	padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+input{
+	color: white;
+}
+
+.button{
+	margin: 0 auto;
+	padding-left: 250px;
+	padding-right: 250px;
+}
+.submit{
+	cursor: pointer;
+	width: 250px;
+    height: 50px;
+    background-color: #40a977;
+    margin: 0 auto;
+	color: white;}
+
