@@ -1,2 +1,2 @@
-# Spotify-King-s-First-Year-Hack-
-Spotify Playlist Maker Based on User Input
+# Budgetting-Tool-First-Year-Hack-
+Web Budget Planner Based on User Input
